@@ -1,0 +1,16 @@
+.social-btn::before {
+    top: 24%;!important;
+}
+.invalid_box {
+    background: #00cc99 none repeat scroll 0 0;
+    border: 1px solid #04a87f;
+    color: #ffffff;
+    margin: 15px 0;
+    overflow: hidden;
+    font-weight: bold;
+    width: 100%
+}
+.right_img {
+    float: left;
+    margin-right: 6px;
+}

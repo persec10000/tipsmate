@@ -1,0 +1,157 @@
+
+div.menu-text{
+    color :white;
+}
+body{
+    color: #444;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-size: 26px;
+    line-height: 2.8em;
+    background-color: darkseagreen;
+
+}
+
+.wrapper{
+    display: flex;
+    align-items: stretch;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #a71512;
+    border-color: rgba(2, 1, 1, 0.98);
+}
+h1.admin{
+    line-height: 2;
+
+}
+table.data-table{
+    width: 100%;
+}
+li.menu-link{
+    color:white;
+
+}
+
+a.menu-cat{
+    color:white;
+}
+a.editProduct{
+    background-color: red;
+    margin-right:5px;
+}
+a.deleteProduct{
+    background-color: black;
+    margin-left:5px;
+
+}
+a#add_categories{
+    background-color: black ;
+    line-height: 2;
+    margin-bottom:20px;
+}
+ul.menu{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-top:150px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 10px;
+    list-style-type:none;
+}
+div.menu-context{
+    display: inline-block;
+    color:white;
+}
+div.menu-container{
+    background-color: #23282d;
+    /*min-width:250px;*/
+    width: 250px;
+    height: 1000px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    outline: 0;
+    -webkit-font-smoothing: subpixel-antialiased;
+    }
+div.text{
+    font-size: 14px;
+    display: inline-block;
+}
+
+div.icon{
+    font-size: 14px;
+    margin-right: 2px;
+    display: inline-block;
+}
+div #menu{
+    position: fixed;
+    top: 0;
+    bottom: -120px;
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+    -webkit-font-smoothing: subpixel-antialiased;
+    background:#23282d;
+    color : white;
+    padding-top:100px;
+}
+.custom{
+    color:inherit;
+    opacity:0.7;
+}
+
+.custom:active{
+    color:red;
+}
+
+.admin_logout{
+    position: absolute;
+    top:10px;
+    right:10px;
+}
+
+.hidden{
+    display: none;
+}
+.visible{
+    display: block;
+}
+.rounded-circle{
+    border-radius: 50%!important;
+}
+td{
+    text-align: center;
+    vertical-align: middle!important;
+}
+th{
+    text-align: center;
+    vertical-align: middle!important;
+}
+.deleteProduct,.ViewProduct,.editProduct{
+  width:80px!important;
+    margin: 5px!important;
+}
+.img_ask:hover, .img_post:hover{
+    border-bottom: 1px solid #87cc7b;
+    transform: translateY(2px);
+}
+.img_ask1:hover, .img_post1:hover{
+    border-bottom: 1px solid #ff714f;
+    transform: translateY(2px);
+}
+
+.menu{
+    margin-left: 10px!important;
+}
+
+.menu-context{
+    color:white;
+}
+.menu-context:hover{
+    color:red;
+}
+
+div.activeMenu{
+    color:red;
+
+}

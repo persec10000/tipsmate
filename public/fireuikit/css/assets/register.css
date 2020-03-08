@@ -1,0 +1,205 @@
+html,body{
+    height: 100%;
+}
+div{
+    display: block;
+}
+.nav-item a{
+    color: #ffffff;
+}
+.login_body{
+    padding:0 15% 0 15%;
+}
+.login_body h2{
+    font-weight: 400;!important;
+}
+.login_box{
+    background: #f7f7f7;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 40px 30px;
+}
+.register_title{
+     margin-bottom: 20px;
+ }
+.register_title h5 {
+    line-height: 28px;
+    font-weight: 300;!important;
+}
+.register_title a {
+    text-decoration: underline;
+    color: green;
+}
+h5 {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.pl30, .pl-lg {
+    padding-left: 30px !important;
+}
+.social-login-desktop-body {
+    display: block;
+}
+.social-login-mobile-body{
+    display: none;
+}
+.social-btn{
+    padding-left:40px;
+    border-left: 1px solid #ef3333;
+}
+.social-btn::before {
+    content: 'Or';
+    position: absolute;
+    top: 50%;
+    left: 23px;
+    height: 30px;
+    margin-top: -15px;
+    font-size: 1.1em;
+    line-height: 30px;
+    background-color: #f7f7f7;
+}
+.social-btn a{
+    margin-bottom: 15px;
+    color: white;
+}
+.social-btn a>b{
+    padding-left: 10px;
+}
+.text-center{
+    text-align: center;
+}
+.social-btn::before{
+    content:'Or';
+    position: absolute;
+    top: 14%;
+    left: 23px;
+    height: 30px;
+    margin-top: -15px;
+    font-size: 14px;
+    line-height: 30px;
+    background-color: #f7f7f7;
+}
+
+.facebook_login_form{
+    margin-bottom: 15px;
+    position: relative;
+}
+.facebook_login_form .btn-icon::before{
+    font-family: FontAwesome;
+    content: "\f082";
+    position: absolute;
+    z-index: 1111;
+    font-size: 24px;
+    color: #4267B2;
+    left: 12px;
+    top: 11px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+.facebook_login_form .btn-icon::before{
+    font-family: FontAwesome;
+    content: "\f082";
+    position: absolute;
+    z-index: 1111;
+    font-size: 24px;
+    color: #4267B2;
+    left: 12px;
+    top: 8px;
+}
+.facebook_login_form .left-panel {
+    width: 43px;
+    height: 45px;
+    background: white;
+    position: absolute;
+    z-index: 5;
+    left: 1px;
+    bottom: 1px;
+    border-radius: 3px 0 0 3px;
+}
+.facebook_login_form .f-btn {
+    border-radius: 3px;
+    border: 1px solid #4267B2;
+    background: #4267B2;
+}
+.facebook_login_form input {
+    font-size: 14px;
+    padding: 12px 12px 12px 50px !important;
+}
+.google_login_form {
+    position: relative;
+}
+.google_login_form .btn-icon::before {
+    font-family: FontAwesome;
+    content: "\f0d5";
+    position: absolute;
+    z-index: 1111;
+    font-size: 22px;
+    color: #4267B2;
+    left: 12px;
+    top: 9px;
+}
+.google_login_form .left-panel {
+    width: 43px;
+    height: 45px;
+    background: white;
+    position: absolute;
+    z-index: 9;
+    left: 1px;
+    top: 1px;
+    border-radius: 3px 0 0 3px;
+}
+.google_login_form input {
+    font-size: 14px;
+    background: #4285F4;
+    border: 1px solid #4285F4;
+    padding: 12px 12px 12px 50px !important;
+    border-radius: 3px;
+}
+
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0;
+    text-shadow: none;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+}
+.border-radius {
+    border-radius: 0;
+}
+.pl30, .pl-lg {
+    padding-left: 30px !important;
+}
+.social-login-desktop-body {
+    display: block;
+}
+.red-bg {
+    background: #ef3333!important;
+}
+.border-none{
+    border: none;
+}
+.border-radius3{
+    border-radius: 3px;
+}
+.full-width{
+    width: 100%;
+}
+.form-group a{
+    text-decoration: underline;
+    color: red;
+}
+.form-group .mb-5 a:hover{
+    text-decoration: underline;
+}
